@@ -1,0 +1,147 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-image: url(BANNER\ 2.jpg);
+}
+.form-1{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    margin: 8% auto;
+    position: relative;
+    padding: 10px;
+}
+.button-box{
+    
+    width: 150px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 3px blue;
+    border-radius: 40px;
+}
+.toggle-btn{
+    padding: 8px 40px;
+    
+    border: 0;
+    background: transparent;
+    outline: none;
+    position: relative;
+}
+#btn1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to right, blueviolet,yellow,red,blueviolet);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.social-login1{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 3px blue;
+    border-radius: 30px;
+    margin: 30px auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+.social-login2{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 3px blue;
+    border-radius: 30px;
+    margin: 30px auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+.social-login3{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 3px blue;
+    border-radius: 30px;
+    margin: 30px auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+.login-form{
+    top: 270px;
+    position: absolute;
+    
+    width: 280px;
+    
+}
+
+.form-field1{
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px;
+    border-top: 1;
+    border-left: 1;
+    border-right: 1;
+    outline: none;
+
+}
+.submit{
+    width: 85%;
+    padding: 10px 25px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, blueviolet,yellow,red,blueviolet);
+    border-radius: 30px;
+    border: 0;
+}
+.checkbox{
+    margin: 30px 10px;
+}
+span{
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+#login{
+    left: 100px;
+}
+.signup-form{
+    top: 500px;
+    position: absolute;
+    
+    width: 280px;
+}
+.btn2{
+    width: 85%;
+    padding: 10px 25px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, blueviolet,yellow,red,blueviolet);
+    border-radius: 30px;
+    border: 0;
+    
+}
+.signup-form a{
+    text-decoration: none;
+}
+#signup{
+    left: 100px;
+}

@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*<!-- header section-->*/
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2874fe;
+    width: 100%;
+    height: 56px;
+}
+
+.header-left{
+    width: 20%;
+    text-align: right;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.header-left a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: double;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+.header-left p{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color: yellow;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+.header-left p:hover{
+    text-decoration: wavy;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.header-center{
+    width: auto;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    padding: 15px;
+    position: relative;
+}
+
+.header-center-input{
+    cursor: text;
+    border-radius: 1px;
+    border: brown;
+    text-align: center;
+    height: 25px;
+    
+   
+}
+
+.fa-solid fa-magnifying-glass{
+    position: obsolute;
+    left: 10%;
+    top: 30%;
+    font-size: 15px;
+    color: aliceblue;
+}
+.header-right{
+    width: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+.header-right a{
+    text-decoration: solid;
+    color: white;
+    margin: 0px 25px;
+}
+.header-right .active{
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    height: 20px;
+    width: 200px;
+    margin-top: 28px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 5px;
+    
+}
+.fa-cart-shopping{
+    padding: 10px;
+}
+
+.fa-sort-down{
+    padding: 5px;
+}
+
+/* <!---category section--->*/
+
+.category-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.category-col{
+    padding: 10px 0px;
+    cursor: pointer;
+    color: rgb(85, 85, 95);
+}
+.category-col img:hover{
+    width: 120px;
+    height: 85px;
+}
+
+.category-col h5:hover{
+    text-decoration: wavy;
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*<!--banner section-->*/
+
+.banner{
+    width: 100%;
+}
+
+.slider img{
+    width: 50%;
+}
+
+/* <!--electronics section-->*/
+
+.card{
+    box-shadow: rgb(177, 174, 170) 0px 0px 5px 1px;
+    padding: 1px 0px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.common-heading{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 2px;
+    margin-top: 60px;
+    box-shadow: 0 1px 1px 0 rgb(0, 0, 0 /16%);
+}
+.common-heading-left h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+.common-heading-left h1{
+    font-size: 15px;
+    padding: 5px 0px;
+    color: black;
+    font-weight: 200;
+}
+.class-heading-right button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+    color: black;
+    border-radius: 2px;
+}
+.common-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 360px;
+    margin: 10px 0px;
+}
+.common-col{
+    text-align: center;
+    line-height: 20px;
+}
+.common-col img{
+    width: 180px;
+    height: 180px;
+    transition: 300ms;
+}
+.common-col img:hover{
+    transform: scale(0.9);
+}
+.common-col h3{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*<!---footer section-->*/
+footer{
+    background-color: black;
+    height: 400;
+}
+.footer-row{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-evenly;
+}
+.footer-col-1{
+    width: 15%;
+    
+}
+.footer-col-2{
+    width: 15%;
+    border-left: 1px solid yellow;
+    height: 220px;
+    padding-left: 25px;
+}
+.footer-col-3{
+    width: 15%; 
+    border-left: 1px solid yellow;
+    height: 220px;
+    padding-left: 25px;
+}
+.footer-col-4{
+    width: 15%;
+    border-left: 1px solid yellow;
+    height: 220px;
+    padding-left: 25px;
+}
+.footer-col-5{
+    width: 20%;
+    border-left: 1px solid yellow;
+    height: 220px;
+    padding-left: 25px;
+}
+.footer-col-6{
+    width: 20%;
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+    height: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+.footer-heading p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.footer-list a{
+    text-align: left;
+    font-size: 12px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+.footer-list-1{
+    text-align: left;
+    font-size: 20px;
+    text-decoration: solid;
+    color: whitesmoke;
+    text-transform: capitalize;
+
+}
+.footer-row2-col a{
+    text-decoration: none;
+}
+
+.footer-row2-col p{
+    color: white;
+}
+.footer-row2-col i,a{
+    color: white;
+}
+.footer-row2-col i{
+    font-size: 40px;
+}
+.footer-row2-col p{
+    font-size: 20px;
+}
